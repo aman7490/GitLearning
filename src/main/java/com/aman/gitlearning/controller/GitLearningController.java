@@ -16,5 +16,10 @@ public class GitLearningController {
 		System.out.println("Get data feature b");
 	}
 	
+	@GetMapping(value = "/getdatafeatured")
+	public void getfeatured_added() {
+		System.out.println("Get data feature d");
+	}
+	
 	
 }
