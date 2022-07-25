@@ -14,11 +14,31 @@ public class GitLearningController {
 	@GetMapping(value = "/getdatafeatureb")
 	public void getfeatureb_added() {
 		System.out.println("Get data feature b");
+		System.out.println("comment 2 - Get data feature b");
+		System.out.println("comment 3 - Get data feature b");
+		System.out.println("comment 4 - Get data feature b");
 	}
 	
 	@GetMapping(value = "/getdatafeatured")
 	public void getfeatured_added() {
 		System.out.println("Get data feature d");
+	}
+	
+	
+	@GetMapping(value = "/getdatafeaturee")
+	public void getfeaturee_added() {
+		System.out.println("Get data feature b");
+		System.out.println("comment 2 - Get data feature b");
+		System.out.println("comment 3 - Get data feature b");
+		System.out.println("comment 4 - Get data feature b");
+	}
+	
+	@GetMapping(value = "/getdatafeaturef")
+	public void getfeaturef_added() {
+		System.out.println("Get data feature b");
+		System.out.println("comment 2 - Get data feature b");
+		System.out.println("comment 3 - Get data feature b");
+		System.out.println("comment 4 - Get data feature b");
 	}
 	
 	
